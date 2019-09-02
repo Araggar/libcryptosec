@@ -59,6 +59,9 @@ public:
 	 * @see Engine::removeFromEnginesList().
 	 */
 	void removeFromEnginesList() throw (EngineException);
+	
+	bool load() throw (EngineException);
+	bool release() throw (EngineException);
 };
 
 #endif /*DYNAMICENGINE_H_*/
